@@ -82,7 +82,7 @@ if __name__ == '__main__':
 
     os.chdir(r'E:\code\python\爬虫练习\豆瓣电影')
     moviedata = pd.DataFrame(MOVIES)
-    moviedata.to_csv('movie.csv')
+    moviedata.to_csv('movie.csv',encoding='utf_8_sig')
     print('电影信息成功保存到本地')
 
 
